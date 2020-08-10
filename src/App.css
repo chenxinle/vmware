@@ -1,0 +1,65 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #999999;
+}
+th {
+  width: 150px;
+  height: 50px;
+  padding: 0;
+  cursor: pointer;
+}
+.phone {
+  height: 25px;
+  width: 150px;
+  border-bottom: 1px solid #999999;
+}
+.phone-bottom {
+  height: 25px;
+  width: 150px;
+  display: flex;
+}
+.phone-item {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.phone-item-left {
+  border-right: 1px solid #999999;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  height: 50px;
+  border-radius: 8px;
+  width: 100px;
+  line-height: 50px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  cursor: pointer;
+}
+.update {
+  margin-right: 20px;
+}

@@ -1,0 +1,30 @@
+td {
+  border: 1px solid #999999;
+  width: 150px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+}
+.phone {
+  height: 50px;
+  width: 150px;
+  display: flex;
+}
+.phoneItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.phoneItemLeft {
+  border-right: 1px solid #999999;
+}
+.input {
+  width: 74px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
