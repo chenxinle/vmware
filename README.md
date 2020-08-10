@@ -1,1 +1,2 @@
-# vmware
+# start project
+yarn start
